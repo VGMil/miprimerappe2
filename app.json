@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "miprimerappe2",
+    "name": "Mi Primer App E2",
     "slug": "miprimerappe2",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "miprimerappe2",
@@ -12,14 +12,16 @@
       "supportsTablet": true,
       "infoPlist": {
         "UIViewControllerBasedStatusBarAppearance": true
-      }
+      },
+      "bundleIdentifier": "com.anonymous.miprimerappe2"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.miprimerappe2"
     },
     "web": {
       "bundler": "metro",
